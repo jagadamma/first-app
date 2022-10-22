@@ -1,4 +1,4 @@
-FROM brentley/ecsdemo-nodejs:latest
+FROM brentley/ecsdemo-nodejs
 WORKDIR /usr/src/app
 COPY package.json package-lock.json ./
 COPY . .
